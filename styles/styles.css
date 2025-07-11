@@ -147,17 +147,30 @@ div h1{
     font-size: 42px;
      font-family: 'Raleway';
      font-weight: bold;
-     text-align: center;    
+     text-align: center;
+     margin-top: 137px;
+         
 }
 .reviewer{
     display: flex;
     margin-top: 24px;
+    gap: 6px;
+}
+.reviewer h5{
+    color: gray;
+    font-family: 'Inter';   
+}
+.reviewer p{
+    color: #B3B3B3;
+     font-family: 'Inter'; 
 }
 .by{
     margin-top: 24px;
+     font-family: 'Inter'; 
 }
 .by h3{
     margin-bottom: 20px;
+    font-weight: bold;
 }
 .avatar{
     border-radius: 50%;
