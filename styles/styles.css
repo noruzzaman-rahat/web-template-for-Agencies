@@ -28,8 +28,8 @@ nav h2{
     font-size: 34px;
     color: #4E47FF;
     font-family: 'Inter';
-    font-weight: bold;
-}
+    font-weight: 900;
+    }
 .template{
     margin-top: 158px;
     display: flex;
@@ -175,5 +175,55 @@ div h1{
 .avatar{
     border-radius: 50%;
 
+}
+
+/*5th step*/
+.focus{
+    background-color: #FFFFFF;
+    width: 1140px;
+    height: 696.77px;
+    margin: 137px auto;
+    border-radius: 14px;
+    margin-top: 158px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+       
+}
+.focus h1{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Raleway';
+    padding-top: 71px;
+}
+.focus p{
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Inter';
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+}
+.focus button{
+    
+    width: 195px;
+    height: 48px;
+    background-color: #4E47FF;
+    border-radius: 10px;
+    color: white;
+    margin-top: 20px;
+    border: none;
+    
+    
+}
+.bit-image{
+    width: 840px;
+    height: 364.77px;
+    margin-top: 20px;
+    margin-bottom: 71px;
+    border-radius: 48px;
+    
 }
 
