@@ -323,10 +323,10 @@ a{
     color: rgb(137, 135, 161);
 }
 .nav-links{
-    display: flex;
+    display: inline-block;
     text-align: center;
-    justify-content: center;
-    gap: 48px;
+    justify-content:space-between;
+    margin: 10px;
     padding-left: 520px;
     padding-right: 520px;
     padding-bottom: 103px;
