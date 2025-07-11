@@ -294,4 +294,39 @@ div h1{
     padding: 19px 201px;
 
 }
-
+/*footer section*/
+.footer{
+    border: 1px solid white;
+    background-color: white;
+    height: 428px;
+    text-align: center;
+    margin-top: 103px;
+    
+}
+.footer h1{
+    font-size: 100px;
+    font-weight: 900px;
+    line-height: 121px;
+    font-family: 'Inter';
+    color: rgb(78, 71, 255);
+    margin-top: 104px;
+}
+.footer p{
+    font-size: 16px;
+    color: rgb(137, 135, 161);
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+a{
+    font-size: 16px;
+    font-family: 'Inter';
+    color: rgb(137, 135, 161);
+}
+.nav-links{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 48px;
+    padding-left: 550px;
+    padding-bottom: 103px;
+}
