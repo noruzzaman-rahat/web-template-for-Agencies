@@ -226,4 +226,72 @@ div h1{
     border-radius: 48px;
     
 }
+/*6th step*/
+.get-touch{
+    width: 1140px;
+    height: 632px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.get-touch h1{
+    width: 528px;
+    height: 232px;
+    font-size: 97px;
+    font-family: 'Raleway';
+    font-weight: bold;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    padding-left: 0px;
+}
+.form{
+    padding-top: 71px;
+    padding-bottom: 71px;
+}
+.form p{
+    font-size: 18px;
+    font-family: 'Inter';
+}
+.first{
+    width: 497px;
+    height: 70px;
+    border-color: #D6DDED;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    
+}
+.second{
+    width: 497px;
+    height: 135px;
+    border-color: #D6DDED;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 10px;
+    border: none;
+}
+.form button{
+     width: 497px;
+    height: 62px;
+    background-color: #4E47FF;
+    border-radius: 10px;
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 19px;
+    color: white;
+    margin-top: 20px;
+    border: none;
+    padding: 19px 201px;
+
+}
 
