@@ -328,4 +328,37 @@ a{
     gap: 48px;
 
 }
+/*button animation*/
+button,
+.div-button,
+nav button,
+.action button,
+.focus button,
+.form button {
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+button:hover,
+.div-button:hover,
+nav button:hover,
+.action button:hover,
+.focus button:hover,
+.form button:hover {
+  transform: scale(1.05);
+  filter: brightness(1.1);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+button:active,
+.div-button:active,
+nav button:active,
+.action button:active,
+.focus button:active,
+.form button:active {
+  transform: scale(0.95);
+  box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.3);
+  filter: brightness(0.95);
+  background-color: #e8eee5;
+}
 
